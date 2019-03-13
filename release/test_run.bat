@@ -1,0 +1,1 @@
+remove_empty_rows.exe --file-in test_file.xlsx --file-out test_file_out.xlsx
