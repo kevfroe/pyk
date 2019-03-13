@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args":["--file-in","./test/test_file.xlsx","--file-out","./test/test_file_out.xlsx"]
+            "args":["-v","--file-in","./test/test_file.xlsx","--file-out","./test/test_file_out.xlsx"]
         },
         {
             "name": "RER: txt file",
@@ -18,7 +18,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args":["--file-in","./test/final_tb.txt","--file-out","./test/final_tb_out.txt"]
+            "args":["-v","--file-in","./test/final_tb.txt","--file-out","./test/final_tb_out.xlsx","--strip-cells"]
         },
         /*
         {
